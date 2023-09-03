@@ -34,6 +34,8 @@ class CreateForm675Table extends Migration
             $table->string('date_of_recorded_stock')->nullable();
             $table->string('sign_of_corrected_ledger')->nullable();
             $table->string('date_of_corrected_ledger')->nullable();
+
+            
             $table->json('ref_no')->nullable();
             $table->json('description_of_goods')->nullable();
             $table->json('unit')->nullable();

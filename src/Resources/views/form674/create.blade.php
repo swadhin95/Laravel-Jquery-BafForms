@@ -1,4 +1,4 @@
-@extends('master')
+@extends('bafforms::master')
 @section('content')
     <div class="card my-5">
         <div class="card-header">
