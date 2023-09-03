@@ -1,0 +1,31 @@
+{
+    "name": "baf/bafforms",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pondit Team",
+            "email": "info@pondit.com"
+        }
+    ],
+    "require": {
+        "barryvdh/laravel-dompdf": "1.0.x-dev",
+        "mpdf/mpdf": "dev-development"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pondit\\BAF\\Bafform\\": "src/"
+        }
+    },
+    "extra": {
+        "copyright": "",
+        "laravel": {
+            "providers": [
+                "Pondit\\BAF\\Bafform\\Providers\\BafformServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,90 @@
+.select2.select2-container.select2-container--default {
+  width: 100% !important;
+}
+
+span.select2-selection {
+  height: 2.3rem !important;
+}
+
+.select2-container--default .select2-selection--single {
+  padding-top: 4px !important;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  top: 6px;
+}
+
+.select2-container--default .select2-selection--single {
+  border: 1px solid #ced4da;
+}
+
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 13.5rem !important;
+}
+
+table#nonMeetingModeTbl tbody tr:hover {
+  background: #ffff99;
+  color: black;
+  font-weight: bolder;
+}
+
+div#example_filter label::after {
+  content: '' !important;
+}
+
+#overlay {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+thead {
+  font-size: 16px;
+}
+
+table.dataTable tbody tr {
+  font-size: 16px;
+}
+
+table tbody tr td span.rowGroupLabel {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 100;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  left: 10px;
+  font-size: 16px;
+}
+
+[data-action='fullscreen']:after {
+  content: none !important;
+}
+
+thead tr td {
+  font-size: 20px;
+  font-weight: bold;
+}
+tbody tr td {
+  font-size: 18px;
+}
